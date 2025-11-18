@@ -19,11 +19,16 @@ We reviewed studies on emotion classification and Transformer architectures:
 These works highlight the strengths of contextual embeddings and motivate our comparison of BERT-family models.
 
 ## Methods
-Experiments were implemented in Google Colab (`roBERTa_stuff.ipynb`) and include:  
+Experiments were implemented in Google Colab and include:  
+
 1. Preprocessing and tokenization  
 2. Fine-tuning BERT, RoBERTa, and DistilBERT  
 3. Training a small generative Transformer variant  
 4. Evaluating performance across models  
+
+Each individual model was trained in a separate Jupyter Notebook (see ./models for `.ipynb` files)
+
+ADD COLAB NOTEBOOKS HERE AFTER SUCCESSFUL TRAINING
 
 ## Results
 fill this in
