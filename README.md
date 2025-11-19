@@ -26,10 +26,10 @@ Experiments were implemented in Google Colab and include:
 
 Each individual model was trained in a separate Jupyter Notebook
 
-ADD COLAB NOTEBOOKS HERE AFTER SUCCESSFUL TRAINING
+Bert: https://colab.research.google.com/drive/1oEduzuCU6EvOdo9q7Q-QH4c52dq_MXyw 
 
 ## Results
-fill this in
+For BERT, the model outputs accuracy 0.393, precision 0.3517, recall 0.39 and F1-Scire 0.36. It identifies class 12 and 8 the best and underpredicts labels 0-3, this may be caused by lack of data due to resample to 20,000 and lack of epoch that was reduced from 5 to 2. 
 
 ## Conclusion
 This study demonstrates the effectiveness of pretrained Transformers for emotion detection and provides a comparative analysis of BERT, RoBERTa, and DistilBERT.
