@@ -24,7 +24,8 @@ Experiments were implemented in Google Colab and include:
 4. Evaluation using accuracy, precision, recall, F1 score, and confusion matrices
 
 ## Results
-For BERT, the model outputs accuracy 0.393, precision 0.3517, recall 0.39, and F1-Score 0.36. It identifies class 12 and 8 the best and underpredicts labels 0-3, this may be caused by lack of data due to resample to 20,000 and lack of epoch that was reduced from 5 to 2. 
+For BERT, the model outputs accuracy 0.393, precision 0.3517, recall 0.39, and F1-Score 0.36. It identifies class 12 and 8 the best and underpredicts labels 0-3, this may be caused by lack of data due to resample to 20,000 and lack of epoch that was reduced from 5 to 2.
+
 For roBERTa, the model outputs accuracy 0.376, precision 0.3149, recall 0.376, and F1-Score 0.32. Predicts class 12 and 8 the best and underpredicts 0-4 and 9.
 ## Conclusion
 This study demonstrates the effectiveness of pretrained Transformers for emotion detection and provides a comparative analysis of BERT, RoBERTa, and DistilBERT.
